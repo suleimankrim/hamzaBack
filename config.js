@@ -1,4 +1,4 @@
 export default {
-  EMAIL: "ransom9@ethereal.email",
-  PASSWORD: "QMNn1yz8w6pqK6DMXK",
+  EMAIL: "alice82@ethereal.email",
+  PASSWORD: "SdkH4MmRNdXerRPwyM",
 };
