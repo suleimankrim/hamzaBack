@@ -22,7 +22,7 @@ mongoose
 app.use("/", UserRoute);
 app.use("/", CourseController);
 app.use("/",CellRouter);
-app.listen(process.env.PORT, () => {
-  console.log("server listening on port "+process.env.PORT);
+app.listen(8080, () => {
+  console.log("server listening on port "+8080);
 });
 export default app;
