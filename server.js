@@ -15,14 +15,14 @@ app.use(morgan("tiny"));
 app.disable("x-powered-by");
 
 mongoose
-  .connect("mongodb://127.0.0.1:27017/first")
+  .connect("mongodb+srv://sulimankareem90:e%26MzD-JY%3A%5E7W%24FuE@sags.hd9r0je.mongodb.net/?retryWrites=true&w=majority")
   .then(() => console.log("success"))
-  .catch((err) => console.log("fuck"));
+  .catch((err) => console.log(e.message));
 
 app.use("/", UserRoute);
 app.use("/", CourseController);
 app.use("/",CellRouter);
-app.listen(8080, () => {
-  console.log("server listening on port 8080");
+app.listen(process.env.PORT, () => {
+  console.log("server listening on port "+process.env.PORT);
 });
 export default app;

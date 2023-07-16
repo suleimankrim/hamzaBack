@@ -1,4 +1,4 @@
 export default {
-  EMAIL: "alice82@ethereal.email",
-  PASSWORD: "SdkH4MmRNdXerRPwyM",
+  EMAIL: "ben.marquardt83@ethereal.email",
+  PASSWORD: "HWz7v6tJjSHtHzp7VB",
 };
